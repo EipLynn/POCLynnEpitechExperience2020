@@ -13,9 +13,9 @@ const data = {
   ],
   calendar: {
     events: [
-      {name: "fête de la musique"},
-      {name: "soirée mojito"},
-      {name: "soirée karaoké"}
+      {name: "Fête de la musique"},
+      {name: "Soirée mojito"},
+      {name: "Soirée karaoké"}
     ]
   },
   tokens: {
