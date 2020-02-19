@@ -34,11 +34,11 @@ const VTCPartnersPage = () => {
         </Col>
       </Row>
 
-      <Row>
-        <Col md={6}>
+      <div className={"row"} style={{textAlign: "center"}}>
+        <Col md={12}>
           <a className="button" href={'/addpartner'}>Ajouter un partenaire</a>
         </Col>
-      </Row>
+      </div>
 
     </Grid>
   );
