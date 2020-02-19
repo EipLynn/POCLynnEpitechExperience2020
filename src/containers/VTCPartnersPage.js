@@ -1,7 +1,7 @@
 import React from 'react';
 import globalStyles from '../styles';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import { Grid, Row, Col, Button } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
 import '../CSS/button.css';
 
 const VTCPartnersPage = () => {
@@ -34,11 +34,11 @@ const VTCPartnersPage = () => {
         </Col>
       </Row>
 
-      <Row>
-        <Col md={6}>
+      <div className={"row"} style={{textAlign: "center"}}>
+        <Col md={12}>
           <a className="button" href={'/addpartner'}>Ajouter un partenaire</a>
         </Col>
-      </Row>
+      </div>
 
     </Grid>
   );
