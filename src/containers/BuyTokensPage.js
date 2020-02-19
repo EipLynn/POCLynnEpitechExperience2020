@@ -6,7 +6,7 @@ const DashboardPage = () => {
 
   return (
     <div>
-      <h3 style={globalStyles.navigation}>Buy Tokens</h3>
+      <h3 style={globalStyles.navigation}>Achat Tokens</h3>
 
       <div className="row">
 
