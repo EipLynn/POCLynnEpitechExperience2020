@@ -1,14 +1,7 @@
 import React from 'react';
 import globalStyles from '../styles';
-import { Grid, Row, Col } from 'react-bootstrap';
-import NavbarHeader from "react-bootstrap/lib/NavbarHeader";
+import { Grid } from 'react-bootstrap';
 import '../CSS/button.css';
-
-function importAll(r) {
-  return r.keys().map(r);
-}
-
-const list = importAll(require.context('../images/vtc', false, /.(png|jpg)$/));
 
 const AddVTCPartnerPage = () => {
 

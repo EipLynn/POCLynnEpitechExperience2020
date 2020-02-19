@@ -1,7 +1,7 @@
 import React from 'react';
 import globalStyles from '../styles';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import { Grid, Row, Col, Button } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
 import '../CSS/button.css';
 
 const VTCPartnersPage = () => {
